@@ -1,0 +1,5 @@
+@reboot screen -d -m sudo redis-server
+@reboot sudo kill -9 `ps aux | grep ifplugd | grep sbin | grep wlan0 | awk '{ print $2 }'`
+@reboot screen -d -m sudo /usr/bin/python /home/pi/leds.py
+#@reboot screen -d -m sudo kismet
+@reboot screen -d -m sudo kismet_server

@@ -1,0 +1,13 @@
+html
+    head
+        title= "real time nodejs maps"
+        meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+        meta(charset='utf-8')
+
+        script(src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false')
+        script(src='/jquery.js')
+        script(src='/maps.js')
+        script(src='/socket.io/socket.io.js')
+        link(rel='stylesheet', href='/maps.css')
+    body
+        #map-canvas

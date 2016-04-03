@@ -1,0 +1,12 @@
+{
+    "name": "nodemaps",
+    "version": "0.0.1",
+    "description": "real time nodejs google maps",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest",
+        "redis": "latest"
+    },
+    "author": "devnulling"
+}
